@@ -89,10 +89,13 @@ void statistic(char buf[])
 					break;
 				case 'c':
 					num_c++;
+					break;
 				case 's':
 					num_s++;
+					break;
 				case 'p':
 					num_p++;
+					break;
 				default:
 					break;
 			}
