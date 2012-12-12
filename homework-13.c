@@ -70,6 +70,7 @@ int main(void)
 
 #include <stdio.h>
 
+
 void statistic(char buf[])
 {
 	int num_d = 0;
@@ -77,6 +78,7 @@ void statistic(char buf[])
 	int num_s = 0;
 	int num_p = 0;
 	int i;
+	int start_flag;
 
 	for (i = 0; buf[i]; i++)
 	{
